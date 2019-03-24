@@ -4,9 +4,21 @@
   "license": "MIT",
   "authors": [
     {
-        "name": "Thomas Günther",
-        "email": "mail@medienbaecker.com",
-        "homepage": "https://www.medienbaecker.com"
+      "name": "Timo Schneider",
+      "email": "info@kleiner-als.de",
+      "homepage": "https://kleiner-als.de"
     }
-]
+  ],
+  "type": "kirby-plugin",
+  "keywords": [
+    "kirby3",
+    "kirby3-cms",
+    "kirby3-plugin"
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.1"
+  },
+  "extra": {
+    "installer-name": "autoresize"
+  }
 }
